@@ -105,8 +105,7 @@ html {
 body.page-template-page-fullsingle-split {
   background-color: #061C30;
   /* font-family: 'Montserrat', sans-serif; */
-  font-family: 'Dosis',
-  sans-serif;
+  font-family: 'Dosis',sans-serif;
   font-weight: 400;
   font-size: 21px;
   line-height: 33px;
@@ -172,9 +171,9 @@ body.page-template-page-fullsingle-split {
   font-size: 64px;
   line-height: 80px;
   letter-spacing: -2px; }
-  @media (max-width: 460px){
+  /* @media (max-width: 460px){
     .split-intro{
-      font-size: 50px}}
+      font-size: 50px}} */
   .split-intro h1 {
     font-weight: 400;
     text-transform: uppercase;
