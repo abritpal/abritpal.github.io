@@ -39,56 +39,56 @@
   }
   body::before { width: 500px; height: 500px; top: -100px; right: -100px; background: var(--lavender); }
   body::after { width: 400px; height: 400px; bottom: -50px; left: -80px; background: var(--peach); }
-  .container { max-width: 620px; margin: 0 auto; padding: 72px 24px 100px; }
+  .container { max-width: 860px; margin: 0 auto; padding: 60px 40px 100px; }
 
-  .header { text-align: center; margin-bottom: 52px; animation: fadeUp 0.6s ease both; }
+  .header { text-align: center; margin-bottom: 48px; animation: fadeUp 0.6s ease both; }
   .avatar {
-    width: 110px; height: 110px; border-radius: 50%; margin: 0 auto 20px;
+    width: 160px; height: 160px; border-radius: 50%; margin: 0 auto 24px;
     overflow: hidden;
     box-shadow: 0 8px 30px rgba(150, 160, 170, 0.25);
     border: 3px solid var(--border);
   }
   .avatar img { width: 100%; height: 100%; object-fit: cover; }
-  h1 { font-family: 'Fraunces', serif; font-size: 1.9rem; font-weight: 500; letter-spacing: -0.01em; }
-  .tagline { color: var(--muted); font-size: 0.92rem; font-weight: 300; margin-top: 4px; }
+  h1 { font-family: 'Fraunces', serif; font-size: 2.2rem; font-weight: 500; letter-spacing: -0.01em; }
+  .tagline { color: var(--muted); font-size: 1rem; font-weight: 300; margin-top: 6px; }
   .location { font-size: 0.82rem; color: var(--muted); font-weight: 300; }
 
-  .links { display: flex; gap: 10px; justify-content: center; margin-top: 20px; flex-wrap: wrap; }
+  .links { display: flex; gap: 12px; justify-content: center; margin-top: 24px; flex-wrap: wrap; }
   .links a {
-    color: var(--muted); text-decoration: none; font-size: 0.82rem; font-weight: 500;
-    padding: 6px 16px; border-radius: 100px; background: var(--card);
+    color: var(--muted); text-decoration: none; font-size: 0.9rem; font-weight: 500;
+    padding: 8px 18px; border-radius: 100px; background: var(--card);
     border: 1px solid var(--border); transition: all 0.25s ease;
     box-shadow: 0 2px 8px var(--shadow);
   }
   .links a:hover { background: var(--lavender); color: white; border-color: var(--lavender); transform: translateY(-1px); }
 
   .bio {
-    color: var(--muted); font-size: 0.92rem; font-weight: 300; margin-bottom: 44px;
-    background: var(--card); border-radius: 16px; padding: 28px;
+    color: var(--muted); font-size: 1rem; font-weight: 300; margin-bottom: 48px;
+    background: var(--card); border-radius: 16px; padding: 32px;
     border: 1px solid var(--border); box-shadow: 0 4px 20px var(--shadow);
-    animation: fadeUp 0.6s ease 0.1s both;
+    animation: fadeUp 0.6s ease 0.1s both; line-height: 1.85;
   }
-  .bio p { margin-bottom: 10px; }
+  .bio p { margin-bottom: 14px; }
   .bio p:last-child { margin-bottom: 0; }
   .bio strong { color: var(--text); font-weight: 500; }
 
-  .section { margin-bottom: 32px; }
+  .section { margin-bottom: 40px; }
   .section-title {
-    font-family: 'Fraunces', serif; font-size: 1.1rem; font-weight: 500;
-    margin-bottom: 16px; display: flex; align-items: center; gap: 10px;
+    font-family: 'Fraunces', serif; font-size: 1.3rem; font-weight: 500;
+    margin-bottom: 20px; display: flex; align-items: center; gap: 10px;
   }
   .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
-  .card-list { display: flex; flex-direction: column; gap: 10px; }
+  .card-list { display: flex; flex-direction: column; gap: 12px; }
   .card {
-    background: var(--card); border-radius: 14px; padding: 18px 22px;
+    background: var(--card); border-radius: 14px; padding: 22px 26px;
     border: 1px solid var(--border); box-shadow: 0 2px 12px var(--shadow);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     animation: fadeUp 0.5s ease both;
   }
   .card:hover { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(150, 160, 170, 0.15); }
-  .card-title { font-weight: 600; font-size: 0.9rem; margin-bottom: 2px; }
-  .card-desc { color: var(--muted); font-size: 0.82rem; font-weight: 300; }
-  .card-meta { font-size: 0.76rem; font-weight: 500; margin-top: 2px; }
+  .card-title { font-weight: 600; font-size: 1rem; margin-bottom: 4px; }
+  .card-desc { color: var(--muted); font-size: 0.92rem; font-weight: 300; }
+  .card-meta { font-size: 0.85rem; font-weight: 500; margin-top: 2px; }
 
   .tag {
     display: inline-block; font-size: 0.68rem; font-weight: 600; text-transform: uppercase;
@@ -125,9 +125,9 @@
   .card:nth-child(5) { animation-delay: 0.35s; }
 
   @media (max-width: 480px) {
-    .container { padding: 48px 16px 72px; }
-    h1 { font-size: 1.6rem; }
-    .bio { padding: 20px; }
+    .container { padding: 48px 20px 72px; }
+    h1 { font-size: 1.7rem; }
+    .bio { padding: 24px; }
   }
 </style>
 </head>
@@ -146,7 +146,7 @@
       <a href="https://twitter.com/abritpal">𝕏</a>
       <a href="https://www.instagram.com/abritpal/">Instagram</a>
       <a href="https://www.goodreads.com/user/show/64068964-abrit-pal-singh">Goodreads</a>
-      <a href="mailto:abritpal@gmail.com">Email</a>
+      <a href="/cdn-cgi/l/email-protection#2b4a4959425f5b4a476b4c464a424705484446">Email</a>
     </div>
   </div>
 
@@ -218,9 +218,4 @@
   </div>
 
   <footer>
-    <p><a href="mailto:abritpal@gmail.com">abritpal@gmail.com</a></p>
-  </footer>
-
-</div>
-</body>
-</html>
+    <p><a href="/cdn-cgi/l/email-protection#39585b4b504d49585579
